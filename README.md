@@ -85,6 +85,8 @@ $(\text{Bi}_2\text{Te}_y\text{Se}_y)$
 $(\text{Bi}_2\text{Te}_y\text{Se}_3-y)$
 $(\text{Bi}_2\text{Te}_y\text{Se}_[3-y])$
 $(\text{Bi}_2\text{Te}_y\text{Se}_(3-y))$
+$(\text{Bi}_2 \text{Te}_y \text{Se}_{3\-y})$
+
 
 
 alloys are quintessential thermoelectric materials that have garnered significant attention for their favorable properties in solid-state cooling and energy conversion applications. Binary $(\text{Bi}_2\text{Te}_3)$ and related ternary/quaternary alloys like bismuth-tellurium-selenium/antimony demonstrate high figures of merit $zT$ exceeding unity, besides being eco-friendly, stable in air and amenable to scalable fabrication. These alloys exhibit a narrow bandgap, high carrier mobility, and an optimal Seebeck coefficient, collectively contributing to their superior thermoelectric performance. When doped with selenium $(\text{Se})$, the thermal conductivity of these alloys is reduced, which is beneficial for enhancing their thermoelectric performance.
