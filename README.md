@@ -79,21 +79,7 @@ Doping skutterudites with rare earth elements also improves $zT$ through point d
 
 ## N-type Bismuth Tellurium Selenide Alloys
 
-N-type bismuth tellurium selenide $(\text{Bi}_2 \text{Te}_y \text{Se}\_{3-y})$
-$(\text{Bi}_2\text{Te}_y\text{Se}_3)$
-$(\text{Bi}_2\text{Te}_y\text{Se}_y)$
-$(\text{Bi}_2\text{Te}_y\text{Se}_3-y)$
-$(\text{Bi}_2\text{Te}_y\text{Se}_[3-y])$
-$(\text{Bi}_2\text{Te}_y\text{Se}_(3-y))$
-$(\text{Bi}_2 \text{Te}_y \text{Se}_{3\-y})$
-$(\text{Bi}_2\text{Te}_y\text{Se}_{3-y})$
-$(\mathrm{Bi}_2\mathrm{Te}_y\mathrm{Se}_{3-y})$
-$(\text{Bi}_2 \text{Te}_y \text{Se}_\{3-y\})$
-$(\text{Bi}_2\text{Te}_y\text{Se}_{3 - y})$
-
-
-
-alloys are quintessential thermoelectric materials that have garnered significant attention for their favorable properties in solid-state cooling and energy conversion applications. Binary $(\text{Bi}_2\text{Te}_3)$ and related ternary/quaternary alloys like bismuth-tellurium-selenium/antimony demonstrate high figures of merit $zT$ exceeding unity, besides being eco-friendly, stable in air and amenable to scalable fabrication. These alloys exhibit a narrow bandgap, high carrier mobility, and an optimal Seebeck coefficient, collectively contributing to their superior thermoelectric performance. When doped with selenium $(\text{Se})$, the thermal conductivity of these alloys is reduced, which is beneficial for enhancing their thermoelectric performance.
+N-type bismuth tellurium selenide $(\text{Bi}_2 \text{Te}_y \text{Se}\_{3-y})$ alloys are quintessential thermoelectric materials that have garnered significant attention for their favorable properties in solid-state cooling and energy conversion applications. Binary $(\text{Bi}_2\text{Te}_3)$ and related ternary/quaternary alloys like bismuth-tellurium-selenium/antimony demonstrate high figures of merit $zT$ exceeding unity, besides being eco-friendly, stable in air and amenable to scalable fabrication. These alloys exhibit a narrow bandgap, high carrier mobility, and an optimal Seebeck coefficient, collectively contributing to their superior thermoelectric performance. When doped with selenium $(\text{Se})$, the thermal conductivity of these alloys is reduced, which is beneficial for enhancing their thermoelectric performance.
 
 The alloying of $(\text{Bi})$, $(\text{Te})$, and $(\text{Se})$ can be meticulously controlled to create a material that is not only tailored for high-temperature performance but also exhibits a robustness necessary for sustained operation. The unique combination of these elements leads to an intricate electronic structure that can be exploited to improve the transport properties of charge carriers. The addition of selenium is particularly effective in tuning the carrier concentration, which is a crucial factor in optimizing the $zT$ of thermoelectric materials. The crystalline structure of $\text{Bi}_2\text{Te}_y\text{Se}_{3-y}$ alloys is such that it inherently hinders the flow of phonons due to its layered nature, resulting in a low thermal conductivity. This characteristic is particularly advantageous for thermoelectric applications, as it facilitates the maintenance of a temperature gradient across the material. The alloys' electronic structure also favors the transport of electrons, which is a crucial aspect of their n-type behavior. With an appropriate band gap and a high Seebeck coefficient, these materials demonstrate considerable promise in converting thermal energy into electrical energy efficiently.
 
