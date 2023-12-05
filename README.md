@@ -86,6 +86,9 @@ $(\text{Bi}_2\text{Te}_y\text{Se}_3-y)$
 $(\text{Bi}_2\text{Te}_y\text{Se}_[3-y])$
 $(\text{Bi}_2\text{Te}_y\text{Se}_(3-y))$
 $(\text{Bi}_2 \text{Te}_y \text{Se}_{3\-y})$
+$(\text{Bi}_2\text{Te}_y\text{Se}_{3-y})$
+$(\mathrm{Bi}_2\mathrm{Te}_y\mathrm{Se}_{3-y})$
+
 
 
 
