@@ -79,7 +79,7 @@ Doping skutterudites with rare earth elements also improves $zT$ through point d
 
 ## N-type Bismuth Tellurium Selenide Alloys
 
-N-type bismuth tellurium selenide $(\text{Bi}_2 \text{Te}_y \text{Se}_{3-y})$
+N-type bismuth tellurium selenide $(\text{Bi}_2 \text{Te}_y \text{Se}\_{3-y})$
 $(\text{Bi}_2\text{Te}_y\text{Se}_3)$
 $(\text{Bi}_2\text{Te}_y\text{Se}_y)$
 $(\text{Bi}_2\text{Te}_y\text{Se}_3-y)$
