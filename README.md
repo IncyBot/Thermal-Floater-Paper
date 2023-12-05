@@ -61,9 +61,7 @@ At elevated temperatures, materials typically face exacerbated rates of thermal 
 
 Besides material stability, the significance of a constant temperature differential cannot be overstated. Maintaining a large temperature differential $\Delta T$ between the hot and cold TEG junctions grows increasingly difficult at higher temperatures - further contributing to efficiency losses. The thermoelectric efficiency, determined by the Seebeck effect, relies on the existence of a temperature differential between the two sides of the thermoelectric material. As the efficiency of a TEG is proportional to the temperature difference across its terminals, a consistent and substantial differential is crucial for maximizing power output. Since the induced open-circuit voltage scales directly with $\Delta T$, any reduction from heat leakage or parasitic losses leads to exponentially lower output power. And the maximum efficiency itself varies as 
 
-$
-(1+zT)^{1/2} \sim \frac{\Delta T}{T_H},
-$
+$(1+zT)^{1/2} \sim \frac{\Delta T}{T_H},$
 
 where $T_H$ is the hot side temperature. Commonly used bulk TE materials with $zT \sim 1$ hence demonstrate drastic efficiency drops approaching $20\%-30\%$ of the peak value when operated between $500-700^\circ\text{C}$. This underscores the vital challenge of preserving $\Delta T$ across the TEG system at elevated temperatures. In systems like the Thermal Floater, which operate in dynamic environments where the heat source may be variable, such as the sun, maintaining this differential is a challenging but necessary endeavor for optimal performance. The stability of the temperature differential also plays a pivotal role in the practical deployment of TEGs. Inconsistent thermal gradients can lead to fluctuating power outputs, complicating the integration of TEGs into power systems, especially in applications requiring stable and reliable energy flow. For TEGs used in conjunction with solar-thermal concentrators, the ability to maintain a consistent temperature differential despite the diurnal and seasonal variability in solar radiation is essential.
 
@@ -126,9 +124,7 @@ The benefits of nanostructuring, and particularly endotaxial nanostructuring, in
 
 In terms of energy output, the integration of these alloys into the Thermal Floater is projected to elevate the power generation capacity of the device. With higher $zT$ values, the conversion of heat to electricity becomes more efficient, leading to a greater amount of electrical energy produced per unit of heat absorbed. This increase in output makes the Thermal Floater a more viable and competitive option for renewable energy generation, potentially expanding its applicability beyond niche markets to more widespread utility-scale deployment. Analytical models predict that by optimally synthesizing and consolidating anisotropic $\text{Bi}_2\text{Te}_y\text{Se}_{3-y}$ nanoforests and $\text{Pb}\text{Te}_{1-x}\text{Se}_x$ nanocubes, an output power density exceeding $12\ \text{W/cm}^2$ can be realized at $700\text{K}$ between the hot and cold TEG junctions. This signifies over $80\%$ enhancement compared to traditional bismuth telluride modules which demonstrate substantial efficiency losses beyond $500\text{K}$. More importantly, implementing these nano-engineered alloys enhances the system coefficient of performance by $45\%$ compared to the state-of-the-art bismuth selenide antimony TEGs. The superior performance is underpinned by the high open-circuit voltage and reduced inner resistance enabled by documents exceptional thermoelectric properties. This maximizes heat-to-electricity conversion efficiency while also elevating the permissible device impedance - allowing the economical use of longer TE legs which increase thermal transduction between the absorber and heat sink. Taken together, integrating the synthesized high-$zT$ alloys could potentially double the electrical output predicted from the existing prototype Thermal Floater. Since the maximum efficiency depends exponentially on $zT$ as 
 
-$
-\eta_{\text{max}} = \frac{\eta_{\text{C}}}{(1+zT)^{1/2}},
-$
+$\eta_{\text{max}} = \frac{\eta_{\text{C}}}{(1+zT)^{1/2}},$
 
 even incremental gains of $10-20\%$ in $zT$ translate to noticeable efficiency improvements.<sup>[[1]](#ref1)</sup>
 
