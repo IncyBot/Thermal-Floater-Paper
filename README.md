@@ -17,7 +17,9 @@ TEGs work via the Seebeck effect, in which a voltage is generated when a tempera
 
 A material's thermoelectric efficiency is measured by the figure of merit, $zT$, which is defined as
 
-$zT = \frac{S^2 \sigma T}{\kappa},$
+$$
+zT = \frac{S^2 \sigma T}{\kappa},
+$$
 
 where $S$ is the Seebeck coefficient, representing the voltage generated per unit temperature difference, $\sigma$ is the electrical conductivity, $T$ is the absolute temperature, and $\kappa$ is the thermal conductivity. The $zT$ value encapsulates the essence of a material's thermoelectric quality; the higher the $zT$, the better the material's capability to convert heat into electricity. An ideal thermoelectric material would have high electrical conductivity to minimize Joule heating, low thermal conductivity to maintain a temperature gradient, and a high Seebeck coefficient to maximize voltage. However, these parameters are interdependent in complex ways and optimizing one often adversely affects another. This has been a key challenge in developing high performance thermoelectric materials.<sup>[[1]](#ref1)</sup> Increasing electrical conductivity also increases electronic thermal conductivity. High carrier concentrations improve conductivity but reduce the Seebeck coefficient. Moreover, the optimization of the Seebeck coefficient and electrical conductivity often involves a trade-off with thermal conductivity, making it challenging to optimize $zT$. For example, increasing the carrier concentration can improve the power factor $(S^2 \sigma)$ but at the cost of augmenting $\kappa$, which is detrimental to the $zT$ value. This interdependency necessitates a delicate balancing act to enhance one parameter without unduly compromising another.
 
