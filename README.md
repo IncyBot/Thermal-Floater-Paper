@@ -294,3 +294,5 @@ Together with abundant, economical constituent elements, the advanced alloys car
 56. <a id="ref56"></a> Zhang, X., & Zhao, L. D. (2015). Thermoelectric materials: Energy conversion between heat and electricity. *Journal of Materiomics, 1*(2), 92-105. https://doi.org/10.1016/j.jmat.2015.01.001
 
 57. <a id="ref57"></a> Zhang, Y., Jia, X., Sun, H., Sun, B., Liu, B., Liu, H., Kong, L., & Ma, H. (2016). Enhanced thermoelectric performance of nanostructured CNTs/BiSbTe bulk composite from rapid pressure-quenching induced multi-scale microstructure. *Journal of Materiomics, 2*(4), 316-323. https://doi.org/10.1016/j.jmat.2016.08.002
+
+58. <a id="ref58"></a> Li, Y., Buddharaju, K., Singh, N., & Lee, S. J. (2012). Top-Down Silicon Nanowire-Based Thermoelectric Generator: Design and Characterization. *Journal of Electronic Materials, 41*(6). https://doi.org/10.1007/s11664-012-1901-4
