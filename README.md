@@ -2,7 +2,7 @@
 
 ## Abstract
 
-This study investigates the potential of skutterudites and selenium alloys with endotaxial nanostructures in enhancing the efficiency of thermoelectric generators (TEGs) for solar-thermal energy applications. Recognizing the limitations of traditional TEG materials at high temperatures, this paper focuses on the advancement of skutterudites and bismuth telluride selenide $(\text{Bi}\_2\text{Te}\_3\text{Se}\_2)$, and lead telluride selenide $(\text{Pb}\text{Te}\text{Se})$ alloys. Endotaxial nanostructuring is highlighted for its effectiveness in reducing thermal conductivity while maintaining electrical conductivity, thereby significantly improving the thermoelectric figure of merit $(zT)$. The paper reviews the principles of TEGs and the latest developments in nanostructured thermoelectric materials, particularly at elevated temperatures suitable for solar-thermal systems. It also discusses the integration challenges and environmental and economic aspects of these advanced materials in TEGs. The paper concludes with future perspectives on the utilization of these nanostructured materials in enhancing the performance of solar-thermal energy conversion systems.
+This study investigates the potential of skutterudites and selenium alloys with endotaxial nanostructures in enhancing the efficiency of thermoelectric generators (TEGs) for solar-thermal energy applications. Recognizing the limitations of traditional TEG materials at high temperatures, this paper focuses on the advancement of skutterudites and bismuth telluride selenide $(\text{Bi}\_2\text{Te}\_3\text{Se}\_2)$, and lead telluride selenide $(\text{Pb}\text{Te}\text{Se})$ alloys. Endotaxial nanostructuring is highlighted for its effectiveness in reducing thermal conductivity while maintaining electrical conductivity, thereby significantly improving the thermoelectric figure of merit ($zT$). The paper reviews the principles of TEGs and the latest developments in nanostructured thermoelectric materials, particularly at elevated temperatures suitable for solar-thermal systems. It also discusses the integration challenges and environmental and economic aspects of these advanced materials in TEGs. The paper concludes with future perspectives on the utilization of these nanostructured materials in enhancing the performance of solar-thermal energy conversion systems.
 
 Keywords: thermoelectric generators, skutterudites, selenium alloys, endotaxial nanostructures, solar-thermal energy, bismuth telluride selenide, lead telluride selenide, high-temperature applications.
 
@@ -61,26 +61,26 @@ Beyond the intrinsic material properties, nanotechnology also offers practical a
 
 ## 4. Significance of High-Temperature Operation
 
-The performance of thermoelectric generators (TEGs) is inherently tied to their operating temperature. High-temperature operation, while enabling access to a vast thermal energy spectrum, introduces a suite of challenges that can significantly impede efficiency. The crux of the difficulty lies in the dual need to maintain a high Seebeck coefficient and electrical conductivity while minimizing thermal conductivity — a triad of requirements that becomes increasingly difficult to satisfy as temperatures rise.
+The performance of thermoelectric generators (TEGs) is inherently tied to their operating temperature. High-temperature operation, while enabling access to a vast thermal energy spectrum, introduces a suite of challenges that can significantly impede efficiency.<sup>[[15]](#ref15)</sup> The crux of the difficulty lies in the dual need to maintain a high Seebeck coefficient and electrical conductivity while minimizing thermal conductivity — a triad of requirements that becomes increasingly difficult to satisfy as temperatures rise.<sup>[[16]](#ref16)</sup>
 
-At elevated temperatures, materials typically face exacerbated rates of thermal diffusion, leading to a rise in thermal conductivity which can dilute the temperature gradient, the driving force behind the Seebeck effect. This escalation in thermal conductivity is often accompanied by a decline in material reliability due to phenomena like thermal expansion, sublimation, crystallite growth, phase transitions, and chemical decomposition. Such factors not only reduce the immediate efficiency of TEGs but also their long-term stability and durability, impacting overall device lifespan. Moreover, maintaining a high efficiency at elevated temperatures requires the sustained integrity of the material's microstructure. The interplay between thermal stress and material robustness becomes critical, as the microstructure defines the transport properties of charge carriers and phonons. Any degradation at this level can cause a marked decline in $zT$, and by extension, the energy conversion efficiency of TEGs.
+At elevated temperatures, materials typically face exacerbated rates of thermal diffusion, leading to a rise in thermal conductivity which can dilute the temperature gradient, the driving force behind the Seebeck effect.<sup>[[17]](#ref17)</sup> This escalation in thermal conductivity is often accompanied by a decline in material reliability due to phenomena like thermal expansion, sublimation, crystallite growth, phase transitions, and chemical decomposition. Such factors not only reduce the immediate efficiency of TEGs but also their long-term stability and durability, impacting overall device lifespan.<sup>[[18]](#ref18)</sup> Moreover, maintaining a high efficiency at elevated temperatures requires the sustained integrity of the material's microstructure. The interplay between thermal stress and material robustness becomes critical, as the microstructure defines the transport properties of charge carriers and phonons.<sup>[[20]](#ref20)</sup> Any degradation at this level can cause a marked decline in $zT$, and by extension, the energy conversion efficiency of TEGs.<sup>[[21]](#ref21)</sup>
 
-Besides material stability, the significance of a constant temperature differential cannot be overstated. Maintaining a large temperature differential $\Delta T$ between the hot and cold TEG junctions grows increasingly difficult at higher temperatures - further contributing to efficiency losses. The thermoelectric efficiency, determined by the Seebeck effect, relies on the existence of a temperature differential between the two sides of the thermoelectric material. As the efficiency of a TEG is proportional to the temperature difference across its terminals, a consistent and substantial differential is crucial for maximizing power output. Since the induced open-circuit voltage scales directly with $\Delta T$, any reduction from heat leakage or parasitic losses leads to exponentially lower output power. And the maximum efficiency itself varies as 
+Besides material stability, the significance of a constant temperature differential cannot be overstated. Maintaining a large temperature differential $\Delta T$ between the hot and cold TEG junctions grows increasingly difficult at higher temperatures - further contributing to efficiency losses.<sup>[[13]](#ref13)</sup> The thermoelectric efficiency, determined by the Seebeck effect, relies on the existence of a temperature differential between the two sides of the thermoelectric material.<sup>[[15]](#ref15)</sup> As the efficiency of a TEG is proportional to the temperature difference across its terminals, a consistent and substantial differential is crucial for maximizing power output. Since the induced open-circuit voltage scales directly with $\Delta T$, any reduction from heat leakage or parasitic losses leads to exponentially lower output power. And the maximum efficiency itself varies as 
 
 $$
 (1+zT)^{1/2} \sim \frac{\Delta T}{T\_H},
 $$
 
-where $T\_H$ is the hot side temperature. Commonly used bulk TE materials with $zT \sim 1$ hence demonstrate drastic efficiency drops approaching $20\\%-30\\%$ of the peak value when operated between $500-700^\circ\text{C}$. This underscores the vital challenge of preserving $\Delta T$ across the TEG system at elevated temperatures. In systems like the Thermal Floater, which operate in dynamic environments where the heat source may be variable, such as the sun, maintaining this differential is a challenging but necessary endeavor for optimal performance. The stability of the temperature differential also plays a pivotal role in the practical deployment of TEGs. Inconsistent thermal gradients can lead to fluctuating power outputs, complicating the integration of TEGs into power systems, especially in applications requiring stable and reliable energy flow. For TEGs used in conjunction with solar-thermal concentrators, the ability to maintain a consistent temperature differential despite the diurnal and seasonal variability in solar radiation is essential.
+where $T\_H$ is the hot side temperature. Commonly used bulk TE materials with $zT \sim 1$ hence demonstrate drastic efficiency drops approaching $20\\%-30\\%$ of the peak value when operated between $500-700^\circ\text{C}$. This underscores the vital challenge of preserving $\Delta T$ across the TEG system at elevated temperatures. In systems like the Thermal Floater, which operate in dynamic environments where the heat source may be variable, such as the sun, maintaining this differential is a challenging but necessary endeavor for optimal performance.<sup>[[12]](#ref12)</sup> The stability of the temperature differential also plays a pivotal role in the practical deployment of TEGs. Inconsistent thermal gradients can lead to fluctuating power outputs, complicating the integration of TEGs into power systems, especially in applications requiring stable and reliable energy flow. For TEGs used in conjunction with solar-thermal concentrators, the ability to maintain a consistent temperature differential despite the diurnal and seasonal variability in solar radiation is essential.<sup>[[12]](#ref12)</sup>
 
-In essence, high-temperature operation amplifies the fundamental challenges associated with thermoelectric materials and device design. The push for higher operational temperatures necessitates materials that can withstand not only the immediate effects of heat but also the long-term implications on material structure and performance. Successfully managing these complexities is key to unlocking the potential of TEGs in high-temperature applications, such as those encountered in solar-thermal energy conversion, where the payoff in terms of efficiency gains could be substantial.
+In essence, high-temperature operation amplifies the fundamental challenges associated with thermoelectric materials and device design. The push for higher operational temperatures necessitates materials that can withstand not only the immediate effects of heat but also the long-term implications on material structure and performance.<sup>[[19]](#ref19)</sup> Successfully managing these complexities is key to unlocking the potential of TEGs in high-temperature applications, such as those encountered in solar-thermal energy conversion, where the payoff in terms of efficiency gains could be substantial.<sup>[[28]](#ref28)</sup>
 
 
 ## 5. Skutterudites
 
 Skutterudites are a class of compounds with the general formula $\text{M}\text{X}\_3$, where $\text{M}$ is a transition metal and $\text{M}$ is a pnicogen $(\text{P}, \text{As}, \text{or Sb})$ and they are generally cobalt antimonide-based compounds with excellent thermoelectric properties stemming from their complex crystal structure containing large vacant sites that can host "rattler" atoms. The rattling motion of these atoms scatters phonons strongly to reduce thermal conductivity. Simultaneously, electrical conductivity remains high leading to improved $zT$ values. Skutterudites have been researched extensively as potential mid-temperature range thermoelectrics from $500-900 \text{K}$.<sup>[[3]](#ref3)</sup> They were identified as promising TE materials in the 1990s, but early studies were limited to $zT$ values around $1$. The development of nanostructuring techniques opened new possibilities for dramatically lowering the lattice thermal conductivity.
 
-Nanostructuring skutterudites further reduces thermal conductivity and increases $zT$. The nanocomposite approach introduces nanoprecipitates at grain boundaries that scatter phonons across a broad spectrum of wavelengths.<sup>[[4]](#ref4)</sup> For example, incorporating ytterbium oxide $(\text{Yb}\_2\text{O}\_3)$ nanoparticles into a cobalt antimonide skutterudite lowered thermal conductivity by $16\\%$ and improved $zT$ to $1.7$ at $800\text{K}$.<sup>[[5]](#ref5)</sup> Another common approach has been to use endotaxial nanostructures which involve embedding monodisperse nanocrystals inside the bulk material, where nanoscale precipitates of a secondary phase are embedded coherently within the skutterudite matrix [7,8]. The coherent crystalline interfaces between nanostructures and matrix scatter mid-long wavelength phonons while maintaining electronic properties. Meanwhile, their crystallographic alignment and small band offset with the matrix minimize scattering of charge carriers, preserving the electrical conductivity. For example, Zhang et al. embedded endotaxial $(\text{Sr}\text{Te})$ nanostructures in a $\text{CoSb}\_3$ skutterudite matrix.<sup>[[8]](#ref8)</sup> The $(\text{Sr}\text{Te})$ phase separated out during high-temperature synthesis and formed epitaxial precipitates $2-10\text{nm}$ in diameter within the $\text{CoSb}\_3$ lattice. This produced a remarkably low lattice thermal conductivity of just $0.22\ \text{W/mK}$ at $800\text{K}$. Combined with an optimized carrier concentration, this nanostructuring resulted in a peak $zT$ of $1.7$ at $800\text{K}$, a substantial improvement over bulk skutterudites.
+Nanostructuring skutterudites further reduces thermal conductivity and increases $zT$. The nanocomposite approach introduces nanoprecipitates at grain boundaries that scatter phonons across a broad spectrum of wavelengths.<sup>[[4]](#ref4)</sup> For example, incorporating ytterbium oxide $(\text{Yb}\_2\text{O}\_3)$ nanoparticles into a cobalt antimonide skutterudite lowered thermal conductivity by $16\\%$ and improved $zT$ to $1.7$ at $800\text{K}$.<sup>[[5]](#ref5)</sup> Another common approach has been to use endotaxial nanostructures which involve embedding monodisperse nanocrystals inside the bulk material, where nanoscale precipitates of a secondary phase are embedded coherently within the skutterudite matrix.<sup>[[7]](#ref7)</sup><sup>,[[8]](#ref8)</sup> The coherent crystalline interfaces between nanostructures and matrix scatter mid-long wavelength phonons while maintaining electronic properties. Meanwhile, their crystallographic alignment and small band offset with the matrix minimize scattering of charge carriers, preserving the electrical conductivity. For example, Zhang et al. embedded endotaxial $(\text{Sr}\text{Te})$ nanostructures in a $\text{CoSb}\_3$ skutterudite matrix.<sup>[[8]](#ref8)</sup> The $(\text{Sr}\text{Te})$ phase separated out during high-temperature synthesis and formed epitaxial precipitates $2-10\text{nm}$ in diameter within the $\text{CoSb}\_3$ lattice. This produced a remarkably low lattice thermal conductivity of just $0.22\ \text{W/mK}$ at $800\text{K}$. Combined with an optimized carrier concentration, this nanostructuring resulted in a peak $zT$ of $1.7$ at $800\text{K}$, a substantial improvement over bulk skutterudites.
 
 Doping skutterudites with rare earth elements also improves $zT$ through point defect scattering and the "rattler" effect. Multiple elemental doping further reduces thermal conductivity and optimizes electrical transport. A quadruple-filled skutterudite combining ytterbium, barium, cerium, and zinc achieved a peak $zT$ of $1.7$ at $773\text{K}$.<sup>[[7]](#ref7)</sup> Doping skutterudites with transitions metals like nickel has also been shown to optimize electrical properties. These nanoengineering strategies have boosted skutterudite $zT$ beyond previous limits. Critically, the high $zT$ is maintained to temperatures over $700\text{K}$, making skutterudites promising candidates for mid-to-high temperature TEGs.
 
@@ -181,32 +181,116 @@ Together with abundant, economical constituent elements, the advanced alloys car
 
 ### References
 
-1. <a id="ref1"></a> D.M. Rowe, Thermoelectrics Handbook: Macro to Nano. CRC press, 2018.
-2. <a id="ref2"></a> G.J. Snyder and E.S. Toberer, "Complex thermoelectric materials," Nature materials, vol. 7, no. 2, pp. 105-114, 2008.
-3. <a id="ref3"></a> G.S. Nolas, J. Sharp and H.J. Goldsmid, Thermoelectrics: basic principles and new materials developments. Springer Science & Business Media, 2013.
-4. <a id="ref4"></a> X. Shi, J. Yang, J.R. Salvador, M. Chi, J.Y. Cho, H. Wang et al., "Multiple-filled skutterudites: high thermoelectric figure of merit through separately optimizing electrical and thermal transports," Journal of the American Chemical Society, vol. 133, no. 20, pp. 7837-7846, 2011. 
-5. <a id="ref5"></a> B. Zhang, J.H. Bahk, A. Shakouri, Y. Zeng, J. Bowers and J.E. Bowers, "Wide bandgap nanostructured thermoelectric generators using high temperature skutterudite segments," Journal of Applied Physics, vol. 117, no. 5, p. 055103, 2015.
-6. <a id="ref6"></a> K. Biswas, J. He, Q. Zhang, G. Wang, C. Uher, V.P. Dravid et al., "Strained endotaxial nanostructures with high thermoelectric figure of merit," Nature chemistry, vol. 3, no. 2, pp. 160-166, 2011. 
-7. <a id="ref7"></a> X. Yan, B. Poudel, Y. Ma, W.S. Liu, G. Joshi, H. Wang et al., "Experimental studies on anisotropic thermoelectric properties and structures of n-type Bi2Te2. 7Se0. 3," Nano letters, vol. 10, no. 9, pp. 3373-3378, 2010.
-8. <a id="ref8"></a> H. Liu, X. Shi, F. Xu, L. Zhang, W. Zhang, L. Chen et al., "Copper ion liquid-like thermoelectrics," Nature materials, vol. 11, no. 5, pp. 422-425, 2012. 
-9. <a id="ref9"></a> J.P. Heremans, V. Jovovic, E.S. Toberer, A. Saramat, K. Kurosaki, A. Charoenphakdee et al., "Enhancement of thermoelectric efficiency in PbTe by distortion of the electronic density of states," Science, vol. 321, no. 5888, pp. 554-557, 2008.
-10. <a id="ref10"></a> L. Zhao, X. Wang, F.Y. Fei, J. Wang, Z. Cheng, S. Dou et al., "Superior intrinsic thermoelectric performance with $zT$ of 1.8 in single-crystal and melt-quenched highly dense Cu2Se bulks," Nano Energy, vol. 28, pp. 151-155, 2016.
-11. <a id="ref11"></a> Q. Zhang, E.K. Chere, K. McEnaney, M. Yao, F. Cao, Y. Ni et al., "Studies on structural, electrical, and optical properties of Cu2SnSe3 thin films," Advanced Energy Materials, vol. 5, no. 7, p. 1401785, 2015.
-12. <a id="ref12"></a> C.K. Ho and B.D. Iverson, "Review of high-temperature central receiver designs for concentrating solar power," Renewable and Sustainable Energy Reviews, vol. 29, pp. 835-846, 2014.
-13. <a id="ref13"></a> A. Montecucco, J.R. Knox and A.R. Knox, "Accurate simulation of thermoelectric power generating systems," Applied Energy, vol. 118, pp. 166-172, 2014.
-14. <a id="ref14"></a> Lan, Y., Poudel, B., Ma, Y., Wang, D., Dresselhaus, M. S., Chen, G., & Ren, Z. (2009). Structure study of bulk nanograined thermoelectric bismuth antimony telluride. Nano letters, 9(4), 1419-1422.
-15. <a id="ref15"></a> Bell, L. E. (2008). Cooling, heating, generating power, and recovering waste heat with thermoelectric systems. Science, 321(5895), 1457-1461.
-16. <a id="ref16"></a> Goldsmid, H. J. (2010). Introduction to thermoelectricity (Vol. 121). Springer.
-17. <a id="ref17"></a> Tritt, T. M., & Subramanian, M. A. (2006). Thermoelectric materials, phenomena, and applications: a bird's eye view. MRS bulletin, 31(3), 188-198.
-18. <a id="ref18"></a> Sootsman, J. R., Chung, D. Y., & Kanatzidis, M. G. (2009). New and old concepts in thermoelectric materials. Angewandte Chemie International Edition, 48(46), 8616-8639.
-19. <a id="ref19"></a> Zebarjadi, M., Esfarjani, K., Dresselhaus, M. S., Ren, Z. F., & Chen, G. (2012). Perspectives on thermoelectrics: from fundamentals to device applications. Energy & Environmental Science, 5(1), 5147-5162.
-20. <a id="ref20"></a> Poudel, B., Hao, Q., Ma, Y., Lan, Y., Minnich, A., Yu, B., & Ren, Z. (2008). High-thermoelectric performance of nanostructured bismuth antimony telluride bulk alloys. Science, 320(5876), 634-638.
-21. <a id="ref21"></a> Vineis, C. J., Shakouri, A., Majumdar, A., & Kanatzidis, M. G. (2010). Nanostructured thermoelectrics: big efficiency gains from small features. Advanced Materials, 22(36), 3970-3980.
-22. <a id="ref22"></a> Lee, S., Song, J., Kim, J., Choi, W., Kim, J., & Park, B. (2015). Control of band gap energy of molybdenum disulfide atomic layers by thickness confinement. Applied Physics Letters, 106(7), 073103.
-23. <a id="ref23"></a> Neophytou, N., Zianni, X., Kosina, H., Frauenheim, T., & Silveira, S. M. (2013). Effects of confinement and orientation on the electronic structure and transport in Si nanowires. Nano letters, 13(3), 1305-1311.
-24. <a id="ref24"></a> Madsen, G. K., & Singh, D. J. (2006). BoltzTraP. A code for calculating band-structure dependent quantities. Computer Physics Communications, 175(1), 67-71.
-25. <a id="ref25"></a> Yu, B., Zebarjadi, M., Wang, H., Lukas, K., Wang, H., Wang, D., & Ren, Z. (2012). Enhancement of thermoelectric properties by modulation-doping in silicon germanium alloy nanocomposites. Nano letters, 12(4), 2077-2082.
-26. <a id="ref26"></a> Zide, J., Vashaee, D., Bian, Z., Zeng, G., Bowers, J., Shakouri, A., & Gossard, A. (2006). Demonstration of electron filtering to increase the Seebeck coefficient in In 0.53 Ga 0.47 As/In 0.53 Ga 0.28 Al 0.19 As superlattices. Physical Review B, 74(20), 205335.
-27. <a id="ref27"></a> Yazawa, K., & Shakouri, A. (2011). Cost-efficiency trade-off and the design of thermoelectric power generators. Environmental Science & Technology, 45(17), 7548-7553.
-28. <a id="ref28"></a> Sharp, J. (2017). Thermoelectrics: The ugly duckling. Nature Energy, 2(9), 17120.
-29. <a id="ref29"></a> Yadav, A., Pipe, K. P., & Shtein, M. (2008). Fiber‐based flexible thermoelectric power generator. Journal of Power Sources, 175(2), 909-913.
+1. <a id="ref1"></a> Rowe, D.M. (Ed.). (2006). Thermoelectrics Handbook: Macro to Nano (1st ed.). CRC Press. https://doi.org/10.1201/9781420038903
+
+2. <a id="ref2"></a> Snyder, G., & Toberer, E. (2008). Complex thermoelectric materials. *Nature materials*, 7, 105-114. https://doi.org/10.1038/nmat2090
+
+3. <a id="ref3"></a> Nolas, G. S., Sharp, J., & Goldsmid, H. J. (2001). *Thermoelectrics: Basic principles and new materials developments*. Springer Series in Materials Science. Springer Berlin, Heidelberg. https://doi.org/10.1007/978-3-662-04569-5
+
+4. <a id="ref4"></a> Shi, X., Yang, J., Salvador, J. R., Chi, M., Cho, J. Y., Wang, H., Bai, S., Yang, J., Zhang, W., & Chen, L. (2011). Multiple-filled skutterudites: High thermoelectric figure of merit through separately optimizing electrical and thermal transports. *Journal of the American Chemical Society*, 133(20), 7837–7846. https://doi.org/10.1021/ja111199y
+
+5. <a id="ref5"></a> Liu, Z. Y., Zhu, J. L., Tong, X., et al. (2020). A review of CoSb3-based skutterudite thermoelectric materials. *Journal of Advanced Ceramics*, 9, 647-673. https://doi.org/10.1007/s40145-020-0407-4
+
+6. <a id="ref6"></a> Biswas, K., He, J., Zhang, Q., Wang, G., Uher, C., Dravid, V. P., & Kanatzidis, M. G. (2011). Strained endotaxial nanostructures with high thermoelectric figure of merit. Nature chemistry, 3(2), 160-166. https://doi.org/10.1038/nchem.955
+
+7. <a id="ref7"></a> Yan, X., Poudel, B., Ma, Y., Liu, W. S., Joshi, G., Wang, H., Lan, Y., Wang, D., Chen, G., & Ren, Z. F. (2010). Experimental studies on anisotropic thermoelectric properties and structures of n-type Bi2Te2.7Se0.3. Nano letters, 10(9), 3373-3378. https://doi.org/10.1021/nl101156v
+
+8. <a id="ref8"></a> Liu, H., Shi, X., Xu, F., Zhang, L., Zhang, W., Chen, L., Li, Q., Uher, C., Day, T., & Snyder Jeffrey, G. (2012). Copper ion liquid-like thermoelectrics. Nature materials, 11(5), 422-425. https://doi.org/10.1038/nmat3273
+
+9. <a id="ref9"></a> Heremans, J. P., Jovovic, V., Toberer, E. S., Saramat, A., Kurosaki, K., Charoenphakdee, A., Yamanaka, S., & Snyder, G. J. (2008). Enhancement of thermoelectric efficiency in PbTe by distortion of the electronic density of states. Science, 321(5888), 554-557. https://doi.org/10.1126/science.1159725
+
+10. <a id="ref10"></a> Zhao, L. L., Wang, X. L., Wang, J. Y., Cheng, Z. X., Dou, S. X., Wang, J., & Liu, L. Q. (2015). Superior intrinsic thermoelectric performance with zT of 1.8 in single-crystal and melt-quenched highly dense Cu(2-x)Se bulks. *Scientific Reports*, 5, 7671. https://doi.org/10.1038/srep07671
+
+11. <a id="ref11"></a> Zhang, Q., Chere, E. K., McEnaney, K., Yao, M., Cao, F., Ni, Y., Chen, S., Opeil, C., Chen, G., & Ren, Z. (n.d.). Enhancement of thermoelectric performance of n-type PbSe by Cr doping with optimized carrier concentration. *Advanced Energy Materials*. https://doi.org/10.1002/aenm.201401977
+
+12. <a id="ref12"></a> Ho, C. K., & Iverson, B. D. (2014). Review of high-temperature central receiver designs for concentrating solar power. *Renewable & Sustainable Energy Reviews*, 29, 835-846. https://doi.org/10.1016/j.rser.2013.08.099
+
+13. <a id="ref13"></a> Montecucco, A., & Knox, A. R. (2014). Accurate simulation of thermoelectric power generating systems. *Applied Energy*, 118, 166-172. https://doi.org/10.1016/j.apenergy.2013.12.028
+
+14. <a id="ref14"></a> Lan, Y., Poudel, B., Ma, Y., Wang, D., Dresselhaus, M. S., Chen, G., & Ren, Z. (2009). Structure study of bulk nanograined thermoelectric bismuth antimony telluride. *Nano Letters*, 9(4), 1419-1422. https://doi.org/10.1021/nl803235n
+
+15. <a id="ref15"></a> Bell, L. E. (2008). Cooling, heating, generating power, and recovering waste heat with thermoelectric systems. *Science*, 321(5895), 1457-1461. https://doi.org/10.1126/science.1158899
+
+16. <a id="ref16"></a> Goldsmid, H. J. (2010). *Introduction to thermoelectricity*. Springer Series in Materials Science. Springer Berlin, Heidelberg. https://doi.org/10.1007/978-3-642-00716-3
+
+17. <a id="ref17"></a> Tritt, T. M. (2006). Thermoelectric materials, phenomena, and applications: A bird's eye view. *MRS Bulletin*, 31, 188-198. https://doi.org/10.1557/mrs2006.44
+
+18. <a id="ref18"></a> Sootsman, J. R., Chung, D. Y., & Kanatzidis, M. G. (2009). New and old concepts in thermoelectric materials. Angewandte Chemie - International Edition, 48(46), 8616-8639. https://doi.org/10.1002/anie.200900598
+
+19. <a id="ref19"></a> Zebarjadi, M., Esfarjani, K., Dresselhaus, M. S., Ren, Z., & Chen, G. (2012). Perspectives on thermoelectrics: from fundamentals to device applications. *Energy and Environmental Science*, 5, 5147-5162. https://api.semanticscholar.org/CorpusID:15744193
+
+20. <a id="ref20"></a> Poudel, B., Hao, Q., Ma, Y., Lan, Y., Minnich, A., Yu, B., Yan, X., Wang, D., Muto, A., Vashaee, D., Chen, X., Liu, J., Dresselhaus, M. S., Chen, G., & Ren, Z. (2008). High-thermoelectric performance of nanostructured bismuth antimony telluride bulk alloys. *Science*, 320(5876), 634-638. https://doi.org/10.1126/science.1156446
+
+21. <a id="ref21"></a> Vineis, C. J., Shakouri, A., Majumdar, A., & Kanatzidis, M. G. (2010). Nanostructured thermoelectrics: big efficiency gains from small features. *Advanced Materials*, 22(36), 3970-3980. https://doi.org/10.1002/adma.201000839
+
+22. <a id="ref22"></a> Yang, CH., Chung, YF., Su, YS. et al. Band structure of molybdenum disulfide: from first principle to analytical band model. J Comput Electron 21, 571–581 (2022). https://doi.org/10.1007/s10825-022-01880-2
+
+23. <a id="ref23"></a> Neophytou, N., & Kosina, H. (2011). Effects of confinement and orientation on the thermoelectric power factor of silicon nanowires. *Physical Review B*, 83. https://doi.org/10.1103/PhysRevB.83.245305
+
+24. <a id="ref24"></a> Madsen, G. K. H., & Singh, D. J. (n.d.). BoltzTraP. A code for calculating band-structure dependent quantities. *arXiv:cond-mat/0602203*. https://doi.org/10.48550/arXiv.cond-mat/0602203
+
+25. <a id="ref25"></a> Yu, B., Zebarjadi, M., Wang, H., Lukas, K., Wang, H., Wang, D., Opeil, C., Dresselhaus, M., Chen, G., & Ren, Z. (2012). Enhancement of thermoelectric properties by modulation-doping in silicon germanium alloy nanocomposites. *Nano Letters*, 12(4), 2077-2082. https://doi.org/10.1021/nl3003045
+
+26. <a id="ref26"></a> Zide, J. M. O., Vashaee, D., Bian, Z. X., Zeng, G., Bowers, J. E., Shakouri, A., & Gossard, A. C. (2006). Demonstration of electron filtering to increase the Seebeck coefficient in $\text{In}\_{0.53}\text{Ga}\_{0.47}\text{As/In}\_{0.53}\text{Ga}\_{0.28}\text{Al}\_{0.19}\text{As}$ superlattices. *Physical Review B*, 74(20), 205335. https://doi.org/10.1103/PhysRevB.74.205335
+
+27. <a id="ref27"></a> Yazawa, K., & Shakouri, A. (2011). Cost-efficiency trade-off and the design of thermoelectric power generators. *Environmental Science & Technology*, 45(17), 7548-7553. https://doi.org/10.1021/es2005418
+
+28. <a id="ref28"></a> Heremans, J.P. (2014). Thermoelectricity: The ugly duckling. Nature, 508(7496), 327-328. doi: 10.1038/508327a
+
+29. <a id="ref29"></a> Yadav, A., Pipe, K.P., & Shtein, M. (2008). Fiber-Based Flexible Thermoelectric Power Generator. *Journal of Power Sources, 175*, 909-913. https://doi.org/10.1016/j.jpowsour.2007.09.096
+
+30. <a id="ref30"></a> Díez, G., Pacios, M., Morata, A., & Tarancón, A. (2018). Silicon-based nanostructures for integrated thermoelectric generators. *Journal of Physics D: Applied Physics, 51*. https://doi.org/10.1088/1361-6463/aad683
+    
+31. <a id="ref31"></a> Biswas, K., He, J., Blum, I. D., Wu, C. I., Hogan, T. P., Seidman, D. N., Dravid, V. P., & Kanatzidis, M. G. (2012). High-performance bulk thermoelectrics with all-scale hierarchical architectures. Nature, 489(7416), 414-418. https://doi.org/10.1038/nature11439
+
+32. <a id="ref32"></a> Caillat, T. (1996). Properties of single crystalline semiconducting CoSb3. *Journal of Applied Physics, 80*(8), 4442-4449. https://doi.org/10.1063/1.363405
+
+33. <a id="ref33"></a> Scherrer, H., & Scherrer, S. (2006). Thermoelectric properties of bismuth antimony telluride solid solutions. *Thermoelectrics Handbook: Macro to Nano*.
+
+34. <a id="ref34"></a> Heremans, J. P., Wiendlocha, B., & Chamoire, A. M. (2012). Resonant levels in bulk thermoelectric semiconductors. *Energy Environ. Sci., 5*(2), 5510-5530. https://doi.org/10.1039/C1EE02612G
+
+35. <a id="ref35"></a> Pei, Y., Shi, X., LaLonde, A., Wang, H., Chen, L., & Snyder, G. J. (2011). Convergence of electronic bands for high performance bulk thermoelectrics. Nature, 473(7345), 66-69. https://doi.org/10.1038/nature09996
+
+36. <a id="ref36"></a> Zhu, T., Liu, Y., Fu, C., Heremans, J. P., Snyder, J. G., & Zhao, X. (2017). Compromise and synergy in high-efficiency thermoelectric materials. Advanced materials, 29(14), 1605884. https://doi.org/10.1002/adma.201605884
+
+37. <a id="ref37"></a> Tan, G., Zhao, L. D., & Kanatzidis, M. G. (2016). Rationally designing high-performance bulk thermoelectric materials. Chemical reviews, 116(19), 12123-12149. https://doi.org/10.1021/acs.chemrev.6b00255  
+
+38. <a id="ref38"></a> Xie, W., Tang, X., Yan, Y., Zhang, Q., & Tritt, T. M. (2009). Unique nanostructures and enhanced thermoelectric performance of melt-spun BiSbTe alloys. *Applied Physics Letters, 94*(10), 102111. https://doi.org/10.1063/1.3097026
+
+39. <a id="ref39"></a> Fu, C., Bai, S., Liu, Y., Tang, Y., Chen, L., Zhao, X., & Zhu, T. (2015). Realizing high figure of merit in heavy-band p-type half-Heusler thermoelectric materials. *Nature Communications, 6*, 8144. https://doi.org/10.1038/ncomms9144
+
+40. <a id="ref40"></a> Liu, W., Tan, X., Yin, K., Liu, H., Tang, X., Shi, J., Zhang, Q., & Uher, C. (2012). Convergence of Conduction Bands as a Means of Enhancing Thermoelectric Performance of $n$-Type ${\mathrm{Mg}}\_{2}{\mathrm{Si}}\_{1\mathrm{-}x}{\mathrm{Sn}}\_{x}$ Solid Solutions. *Phys. Rev. Lett., 108*(16), 166601. https://doi.org/10.1103/PhysRevLett.108.166601
+
+41. <a id="ref41"></a> Wu, M., Cui, H. H., Cai, S. T., Hao, S. Q., Liu, Y. K., Bailey, T. P., Zhang, Y. Y., Chen, Z. X., Luo, Y. B., Uher, C., Wolverton, C., Dravid, V. P., Yu, Y., Luo, Z. Z., Zou, Z. G., Yan, Q. Y., & Kanatzidis, M. G. (2022). Weak Electron-Phonon Coupling and Enhanced Thermoelectric Performance in n-type PbTe-Cu2Se via Dynamic Phase Conversion. *Adv. Mater.* https://doi.org/10.1002/aenm.202203325
+
+42. <a id="ref42"></a> Zhao, X. B., Ji, X. H., Zhang, Y. H., Zhu, T. J., Tu, J. P., & Zhang, X. B. (2005). Bismuth telluride nanotubes and the effects on the thermoelectric properties of nanotube-containing nanocomposites. *Applied Physics Letters, 86*(6), 062111. https://doi.org/10.1063/1.1863440
+
+43. <a id="ref43"></a> Zhao, Y., Dyck, J. S., & Burda, C. (2011). Toward high-performance nanostructured thermoelectric materials: the progress of bottom-up solution chemistry approaches. *J. Mater. Chem., 21*(43), 17049-17058. https://doi.org/10.1039/C1JM11727K
+
+44. <a id="ref44"></a> Zhang, Q., Liao, B., Lan, Y., Lukas, K., Liu, W., Esfarjani, K., Opeil, C., Broido, D., Chen, G., & Ren, Z. (2013). High thermoelectric performance by resonant dopant indium in nanostructured SnTe. *Proc Natl Acad Sci U S A, 110*(33), 13261-13266. https://doi.org/10.1073/pnas.1305735110
+
+45. <a id="ref45"></a> Zhao, LD., Lo, SH., Zhang, Y. et al. Ultralow thermal conductivity and high thermoelectric figure of merit in SnSe crystals. Nature 508, 373–377 (2014). https://doi.org/10.1038/nature13184
+
+46. <a id="ref46"></a> Heremans, J. P., Thrush, C. M., Morelli, D. T., & Wu, M. C. (2002). Thermoelectric Power of Bismuth Nanocomposites. *Phys. Rev. Lett., 88*(21), 216801. https://doi.org/10.1103/PhysRevLett.88.216801
+
+47. <a id="ref47"></a> Kim, W., Zide, J., Gossard, A., Klenov, D., Stemmer, S., Shakouri, A., & Majumdar, A. (2006). Thermal conductivity reduction and thermoelectric figure of merit increase by embedding nanoparticles in crystalline semiconductors. Physical review letters, 96(4), 045901. https://doi.org/10.1103/PhysRevLett.96.045901
+
+48. <a id="ref48"></a> Joshi, G., Lee, H., Lan, Y., Wang, X., Zhu, G., Wang, D., Gould, R. W., Cuff, D. C., Tang, M. Y., Dresselhaus, M. S., Chen, G., & Ren, Z. (2008). Enhanced thermoelectric figure-of-merit in nanostructured p-type silicon germanium bulk alloys. *Nano Lett., 8*(12), 4670-4674. https://doi.org/10.1021/nl8026795
+
+49. <a id="ref49"></a> Tan, G., Shi, F., Doak, J. W., Sun, H., Zhao, L. D., Wang, P., Uher, C., Wolverton, C., Dravid, V. P., & Kanatzidis, M. G. (2015). Extraordinary role of Hg in enhancing the thermoelectric performance of p-type SnTe. *Energy Environ. Sci., 8*(1), 267-277. https://doi.org/10.1039/C4EE01463D
+
+50. <a id="ref50"></a> Hegde, G. S., Prabhu, A. N., Rao, A., & Babu, P. D. (2020). Enhancement of thermoelectric performance of In doped Bi2Te2.7Se0.3 compounds. *Physica B: Condensed Matter, 584*, 412087. https://doi.org/10.1016/j.physb.2020.412087
+
+51. <a id="ref51"></a> Chere, E. K., Zhang, Q., McEnaney, K., Yao, M., Cao, F., Sun, J., Chen, S., Opeil, C., Chen, G., & Ren, Z. (2015). Enhancement of thermoelectric performance in n-type PbTe1−ySey by doping Cr and tuning Te:Se ratio. *Nano Energy*, 13, 355-367. https://doi.org/10.1016/j.nanoen.2015.02.026
+
+52. <a id="ref52"></a> Wang, H., Pei, Y., LaLonde, A. D., & Snyder, G. J. (2011). Heavily doped p-type PbSe with high thermoelectric performance: an alternative for PbTe. *Adv Mater, 23*(11), 1366-1370. https://doi.org/10.1002/adma.201004200
+
+53. <a id="ref53"></a> Korkosz, R. J., Chasapis, T. C., Lo, S. H., Doak, J. W., Kim, Y. J., Wu, C. I., Hatzikraniotis, E., Hogan, T. P., Seidman, D. N., Wolverton, C., Dravid, V. P., & Kanatzidis, M. G. (2014). High ZT in p-Type (PbTe)1–2x(PbSe)x(PbS)x Thermoelectric Materials. *Journal of the American Chemical Society, 136*(8), 3225-3237. https://doi.org/10.1021/ja4121583
+
+54. <a id="ref54"></a> Zhao, L.D., Tan, G., Hao, S., He, J., Pei, Y., Chi, H., Wang, H., Gong, S., Xu, H., Dravid, V.P., Uher, C., Snyder, G. J., Wolverton, C. & Kanatzidis, M.G. (2016). Ultrahigh power factor and thermoelectric performance in hole-doped single-crystal SnSe. Science, 351(6269), 141-144. https://doi.org/10.1126/science.aad3749
+
+55. <a id="ref55"></a> Wang, H., Lalonde, A. D., Pei, Y., & Snyder, G. J. (2013). The criteria for beneficial disorder in thermoelectric solid solutions. Advanced Functional Materials, 23(12), 1586-1596. https://doi.org/10.1002/adfm.201201576
+
+56. <a id="ref56"></a> Zhang, X., & Zhao, L. D. (2015). Thermoelectric materials: Energy conversion between heat and electricity. *Journal of Materiomics, 1*(2), 92-105. https://doi.org/10.1016/j.jmat.2015.01.001
+
+57. <a id="ref57"></a> Zhang, Y., Jia, X., Sun, H., Sun, B., Liu, B., Liu, H., Kong, L., & Ma, H. (2016). Enhanced thermoelectric performance of nanostructured CNTs/BiSbTe bulk composite from rapid pressure-quenching induced multi-scale microstructure. *Journal of Materiomics, 2*(4), 316-323. https://doi.org/10.1016/j.jmat.2016.08.002
